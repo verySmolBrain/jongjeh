@@ -1,5 +1,6 @@
 <script>
-    import Draggable from './Draggable.svelte';
+    import Draggable from '../lib/Draggable.svelte';
+    import RollingText from '../lib/RollingText.svelte';
 
     let min_left = 0;
     let max_left = 150;
@@ -16,7 +17,7 @@
     }
 </script>
 
-<h1> JONGJEH </h1>
+<h1> <RollingText /> </h1>
 
 <h1> PLEASE ZOOM OUT IF YOU WANT A BETTER VIEW </h1>
 
@@ -30,30 +31,30 @@
 
 <Draggable>
     <a href = "">
-        <img src="/1.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555;"  />
+        <img src="/1.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555; alt: Image1;"  />
     </a>
 </Draggable>
 
 <Draggable>
     <a href = "">
-        <img src="/2.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555;"  />
+        <img src="/2.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555; alt: Image2;"  />
     </a>
 </Draggable>
 
 <Draggable>
     <a href = "">
-        <img src="/3.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555;"  />
+        <img src="/3.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555; alt: Image3;"  />
     </a>
 </Draggable>
 
 <Draggable>
     <a href = "">
-        <img src="/4.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555;"  />
+        <img src="/4.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555; alt: Image4;"  />
     </a>
 </Draggable>
 
 <Draggable>
     <a href = "">
-        <img src="/5.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555;"  />
+        <img src="/5.png" style="position: absolute; left: {left()}vh; top: {top()}vh; border: 5px solid #555; alt: Image5;"  />
     </a>
 </Draggable>
